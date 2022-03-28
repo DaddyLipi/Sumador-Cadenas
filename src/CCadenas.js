@@ -1,5 +1,5 @@
 function sumarCadena(cadena)
 {
-    return cadena;
+    return parseInt(cadena);
 }
 export default sumarCadena;
