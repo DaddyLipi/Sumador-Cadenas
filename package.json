@@ -9,7 +9,7 @@
     "test": "jest --watch",
     "test-once": "jest"
   },
-  "author": "Israel Antezana R.",
+  "author": "Jose Manuel Sanchez",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.7",

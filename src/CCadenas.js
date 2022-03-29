@@ -1,6 +1,6 @@
 function sumarCadena(cadena)
 {
-    let file= cadena.split("\n");
+    let file= cadena.split(" ");
     file.pop();
     if(file.length === 0)
     {
@@ -12,7 +12,7 @@ function sumarCadena(cadena)
     }
     else
     {
-        let Delimitador= cadena.split("\n");
+        let Delimitador= cadena.split(" ");
         let CadAux=Delimitador.pop();
         let CadenaAux=CadAux.toString();
         let lim = Delimitador.toString();
