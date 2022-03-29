@@ -17,6 +17,9 @@ describe("Suma de la cadena", () => {
       expect(sumarCadena("1,2")).toEqual(3);
     });
     it("6",()=>{
-      expect(sumarCadena("1,2-3,4")).toEqual(10);
+      expect(sumarCadena("1,2------3,4")).toEqual(10);
+    });
+    it("7",()=>{
+      expect(sumarCadena("//[*]\n1,2-3*4")).toEqual(10);
     });
   });
