@@ -24,9 +24,15 @@ function sumarCadena(cadena)
         }
         let initialValue=0;
         let aux= CadenaAux.replace(lim,'-');
+        for(let i=0;i<20;i++)
+        {
+            aux= aux.replace(lim,'-');
+        }
         let cad = aux.split(/[,-]+/);
         let tot = cad.reduce(
-        (previousValue, currentValue) => parseInt(previousValue) + parseInt(currentValue),initialValue);
+        (previousValue, currentValue) => 
+            parseInt(previousValue) + parseInt(currentValue),initialValue)
+        
         return tot;
     }
 };

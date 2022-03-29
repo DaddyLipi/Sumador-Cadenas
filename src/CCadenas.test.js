@@ -20,6 +20,9 @@ describe("Suma de la cadena", () => {
       expect(sumarCadena("1,2------3,4")).toEqual(10);
     });
     it("7",()=>{
-      expect(sumarCadena("//[*]\n1,2-3*4")).toEqual(10);
+      expect(sumarCadena("//[*]\n1,2*3*4")).toEqual(10);
+    });
+    it("8",()=>{
+      expect(sumarCadena("//[***]\n1***2***3")).toEqual(6);
     });
   });
