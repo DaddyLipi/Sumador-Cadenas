@@ -10,4 +10,7 @@ describe("Suma de la cadena", () => {
     it("3", () => {
       expect(sumarCadena("1,2")).toEqual(["1","2"]);
     });
+    it("4", () => {
+      expect(sumarCadena("1,2")).toEqual([1,2]);
+    });
   });
