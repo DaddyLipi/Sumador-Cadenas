@@ -15,5 +15,8 @@ describe("Suma de la cadena", () => {
     });
     it("5",()=>{
       expect(sumarCadena("1,2")).toEqual(3);
-    })
+    });
+    it("6",()=>{
+      expect(sumarCadena("1,2-3,4")).toEqual(10);
+    });
   });
